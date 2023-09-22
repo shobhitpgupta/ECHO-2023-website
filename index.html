@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <title>ECHO 2023</title>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="schedule.html">Schedule</a></li>
+                    <li><a href="sponsers.html">Sponsers</a></li>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="about.html">About us</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="logo">
+            <a href="index.html"><img src="echo logoWFERF.png" alt=""></a>
+            <p>2023</p>
+        </div>      
+    </section>
+    <section class="about">
+        <h1>About ECHO fest</h1>
+        <p>Mark your calendars because the ECE Society is gearing up for an electrifying fest ECHO, experience that you won't want to miss! 
+            What? : ECHO; When? : October 5th to 8th, 2023 
+            Highlights:
+            
+            Conducted by ECE Society, this fest made its debut in April 2022 and is back for a sensational second season.
+            
+            Get ready for a jam-packed schedule of 22+ events, thoughtfully categorized into sports, virtual, literary, fun, technical, and eSports competitions.
+            
+            Excitingly, winners across these events will vie for a remarkable prize pool of ₹50000+!
+            
+            As the grand finale, we're turning up the beat with a DJ night that promises to keep you dancing all night long! 
+            
+            Join us for an unforgettable fest experience that celebrates talents across the board. Stay tuned for more details and let's make this fest season one for the books!  #ECHO2023</p>
+    </section>
+    <section class="gallery">
+        <h1>Gallery</h1>
+        <div class="row">
+            <div class="photos">
+                <img src="sampleimg.png">
+                <div class="layer">
+                    <h3>Sports Events</h3>
+                </div>
+            </div>
+            <div class="photos">
+                <img src="sampleimg.png">
+                <div class="layer">
+                    <h3>Cultural Events</h3>
+                </div>
+            </div>
+            <div class="photos">
+                <img src="sampleimg.png">
+                <div class="layer">
+                    <h3>Saarang</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="info">
+            <h3>For more information contact:</h3>
+            <h4>
+                xyz123@gmail.com <br>
+                +91 9000000000 <br>
+                ECE department, Ujjain Engineering College
+            </h4>
+        </div>       
+    </section>
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function showMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
