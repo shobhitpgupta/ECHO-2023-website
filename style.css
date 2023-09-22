@@ -215,12 +215,12 @@ opacity: 1;
 .info h3, h4 {
     color: white;
     padding-left: 30px;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 .info{
     position: absolute;
     left: 5%;
-    top: 20px;
+    top: 10px;
     padding: 20px;
     padding-right: 120px;
     background-color: rgba(0, 0, 0, 0.642); 
