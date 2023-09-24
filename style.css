@@ -72,16 +72,62 @@ nav{
 nav .fa{
     display: none;
 }
+/*schedule code start from here by Harish katariya and Rahul Singh Rawat*/
+.wrapper{
+	padding:15px 20%;
+	background:black;
+	color:cyan;
+	
+}
+.s-card{
+	margin:5px;
+	margin-bottom:20px;
+	width:230px;
+	height:250px;
+	border:1px solid white;
+	border-radius:4px;
+	transition:transform 0.4s;
+}
+.wrapper h3{
+	color:white;
+	margin:20px 0;
+	display: flex;
+	justify-content: center;
+}
+.wrapper p{
+	padding: 0 0 0 10px;
+	margin:20px 0 20px 1px;
+}
+.day-1, .day-2, .day-3, .day-4, .day-5{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.event-image{
+	width:230px;
+	height:100px;
+}	
+.s-card:hover{
+	background-color:grey;
+	transform:scale(1.06);
+	border:2px solid cyan;
+}
+/*schedule page code ends here*/
 
 /* Code for reponsiveness */
 @media(max-width: 700px){
+
+
+
+
     .nav-links ul li a{
         color: black;
         text-decoration: none;
         font-size: 20px;
     }
     .logo img{
-        width: 70px;
+        width: 50px;
     }
     .logo img:hover{
         width: 75px;
@@ -335,6 +381,7 @@ opacity: 1;
     padding: 25px;
 }
 .main-about h1{
+
     color: #ff039a;
     padding: 20px;
 }
