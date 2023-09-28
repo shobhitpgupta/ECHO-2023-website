@@ -114,6 +114,93 @@ nav .fa{
 	border:2px solid cyan;
 }
 /*schedule page code ends here*/
+/* events css by Harish Kataria and Rahul Singh Rawat */
+.frame{
+    display: flex;
+    width:100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding:50px 0; 
+}
+.frame p{
+    flex-basis: 70%;
+    margin-bottom:20px ;
+    font-family: cursive;
+
+}
+.frame img{
+    margin:20px;
+    border:2px solid rgb(250, 149, 9);
+    flex-basis:25%;
+    margin-bottom:20px;
+    transition: transform 1s;
+
+}
+.frame img:hover{
+   transform: rotateY(180deg); 
+}
+u{
+ color:rgb(158, 159, 154);;   
+}
+
+/* Code for reponsiveness */
+@media(max-width: 700px){
+
+
+
+
+    .nav-links ul li a{
+        color: black;
+        text-decoration: none;
+        font-size: 20px;
+    }
+    .logo img{
+        width: 50px;
+    }
+    .logo img:hover{
+        width: 75px;
+    }
+    .nav-links ul li{
+        display: block;
+    }
+    .nav-links ul li::after{
+        content: '';
+        width: 0%;
+        height: 2px;
+        background: #0abbf6;
+        display: block;
+        margin: auto;
+        transition: 0.5s;
+    }
+    .nav-links ul li:hover::after{
+        width: 100%;
+    }
+    .nav-links{
+        position: absolute;
+        background: #ff039a;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        transition: 1ss;
+    }
+    nav .fa{
+        display: block;
+        color: white;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+        background-color: black;
+        width: 20px;
+        height: 20px;
+    }
+    .nav-links ul{
+        padding: 25px;
+
+    }
+}
 /* Code for body */
 .about{
     background-color: black;
@@ -135,26 +222,29 @@ nav .fa{
 .gallery{
     background-color: black;
     padding-bottom: 50px;
+    margin: auto;
     text-align: center;
+    padding: 10%;
+    background-color: black;
     
 }
 .gallery h1{
     color: white;
     text-decoration: underline;
+    padding: 20px;
     font-size: 40px;
 }
 .photos{
     flex-basis: 32%;
     border-radius: 10px;
-    /* margin-bottom: 30px; */
+    margin-bottom: 30px;
     position: relative;
     overflow: hidden;
     display: inline-flex;
 }
 .photos img{
-    width: 300px;
+    width: 100%;
     display: block;
-    padding: 20px;
 }
 .layer{
     background-color: transparent;
@@ -164,18 +254,15 @@ nav .fa{
     top: 0;
     left: 0;
     transition: 0.5s;
-
 }
 .layer:hover{
     background-color: #ff039a6f;
 }
 .layer h3{
-    text-align: center;
     right: 30%;
     left: 30%;
     width: 100%;
     font-weight: 500;
-    opacity: 0;
     color: white;
     font-size: 26px;
     bottom: 0;
@@ -187,24 +274,10 @@ nav .fa{
     left: 50%;
 }
 .layer:hover h3{
-top: 10%;
+bottom: 49%;
 opacity: 1;
 }
-.fe h2{
-    color: #0abbf6;
-    padding: 10px;
-    font-size: large;
-}
-.spt h2{
-    color: #0abbf6;
-    padding: 10px;
-    font-size: large;
-}
-.srng h2{
-    color: #0abbf6;
-    padding: 10px;
-    font-size: large;
-}
+
 /* Footer code for all pages */
 .footer{
     min-height: 32vh;
@@ -258,7 +331,8 @@ opacity: 1;
 }
 .header-events img:hover{
     width: 145px;
-}
+} 
+
 /* code for body */
 .main-events{
     padding-top: 100px;
@@ -268,17 +342,17 @@ opacity: 1;
 }
 .main-events h2{
     font-size: 30px;
-    color: rgb(255, 0, 170);
+    color: rgb(253, 250, 252);
     padding-top: 60px;
 }
 .main-events h3{
     font-size: 25px;
-    color: rgb(0, 136, 255);
+    color: cyan;
     padding-top: 40px;
 }
 .main-events p{
     font-size: 15px;
-    color: white;
+    color: rgb(217, 199, 199);
     padding-top: 10px;
 }
 .back-btn{
@@ -340,4 +414,7 @@ opacity: 1;
 
     color: #ff039a;
     padding: 20px;
+}
+.frame{
+    justify-content: center;
 }
