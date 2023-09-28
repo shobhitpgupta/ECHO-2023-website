@@ -68,52 +68,6 @@ nav{
 .logo img:hover{
     width: 140px;
 }
-
-nav .fa{
-    display: none;
-}
-/*schedule code start from here by Harish katariya and Rahul Singh Rawat*/
-.wrapper{
-	padding:15px 20%;
-	background:black;
-	color:cyan;
-	
-}
-.s-card{
-	margin:5px;
-	margin-bottom:20px;
-	width:230px;
-	height:250px;
-	border:1px solid white;
-	border-radius:4px;
-	transition:transform 0.4s;
-}
-.wrapper h3{
-	color:white;
-	margin:20px 0;
-	display: flex;
-	justify-content: center;
-}
-.wrapper p{
-	padding: 0 0 0 10px;
-	margin:20px 0 20px 1px;
-}
-.day-1, .day-2, .day-3, .day-4, .day-5{
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-}
-
-.event-image{
-	width:230px;
-	height:100px;
-}	
-.s-card:hover{
-	background-color:grey;
-	transform:scale(1.06);
-	border:2px solid cyan;
-}
-/*schedule page code ends here*/
 /* Code for body */
 .about{
     background-color: black;
@@ -205,7 +159,6 @@ opacity: 1;
     padding: 10px;
     font-size: large;
 }
-
 /* Footer code for all pages */
 .footer{
     min-height: 32vh;
@@ -228,50 +181,5 @@ opacity: 1;
     padding-right: 120px;
     background-color: rgba(0, 0, 0, 0.642); 
 }
-/*Starting team and about page code*/
-.header-team{
-    min-height: 49vh;
-    width: 100%;
-    background-image: url(headIMg.png);
-    background-position: center;
-    background-size: cover;
-    position: relative;
-} 
-.header-team h1{
-    color: white;
-    text-align: center;
-    font-size: 50px;
-    position: absolute;
-    top: 20%;
-    left: 35%;
-    background-color: rgba(0, 0, 0, 0.756) ;
-    padding: 80px;
-    border-radius: 20px;
-}
-.header-team img{
-    width: 140px;
-    position: absolute;
-    right: 7.5%;
-    top: 65px;
-}
-.header-team img:hover{
-    width: 145px;
-}
-.main-about{
-    text-align: center;
-    padding-top: 5%;
-    background-color: black;
-    
-}
-.main-about p{
-    color: #0abbf6;
-    padding: 25px;
-}
-.main-about h1{
 
-    color: #ff039a;
-    padding: 20px;
-}
-.frame{
-    justify-content: center;
-}
+
