@@ -4,7 +4,7 @@
     font-family: 'Roboto Condensed', sans-serif;
 }
 .header{
-    min-height: 10vh;
+    min-height: 30vh;
     width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.164), rgba(0, 0, 0, 0.957)), url(foot.png);
     background-position: center;
