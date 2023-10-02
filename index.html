@@ -7,13 +7,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="javascript.js"></script>
 </head>
 <body>
     <section class="header">
         <nav>
                 <a href="index.html"> <img src="echo logoWFERF.png"> </a>
-                <div class="nav-links">
-                        <ul>
+                <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+                <div>
+                        <ul class="menu" id="menu">
                                 <li><a id="active" href="index.html">Home</a></li>
                                 <li><a href="events.html">Events</a></li>
                                 <li><a href="schedule.html">Schedule</a></li>
